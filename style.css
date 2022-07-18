@@ -10,6 +10,55 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
 }
+/* _____________________________Navigation Aria________________________ */
+
+.navigation{
+    background: #562EFF;
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    margin-right: 20px;
+}
+.nav-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.logo p{
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.pages{
+    display: flex;
+
+}
+.pages ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.list{
+    margin-left: 20px;
+    color: white;
+}
+
 main{
     display: flex;
     flex-direction: column;
