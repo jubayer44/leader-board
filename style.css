@@ -17,9 +17,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.image{
-    margin-right: 20px;
-}
 .nav-box{
     width: 80%;
     display: flex;
@@ -29,6 +26,7 @@ body{
 }
 .logo{
     display: flex;
+    gap: 20px;
 }
 
 .logo img{
