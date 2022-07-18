@@ -140,3 +140,25 @@ main{
     border-radius: 14.6913px;
     padding: 5px;
 }
+
+/* ------------------Media Query-------------- */
+
+@media screen and (max-width: 767px) {
+    .players, .blogs, .course-container{
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+}
+.sec-title{
+    text-align: center;
+}
+.player, .blog, .course-banner, .course-duration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.course-title{
+    text-align: center;
+}
+}
