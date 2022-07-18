@@ -1,0 +1,142 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Commone Style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    margin-top: 21px;
+    width: 80%;
+    padding: 30px 30px 40px 30px;
+    border-radius: 5px;
+}
+.top-players hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sec-title{
+    color: #562EFF;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 20px;
+
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+
+/*---------------------------------------- Top-blogs section *-----------------------------------/*
+/*  */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    
+    margin-left: 15px;
+}
+.blog-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.blog-aturhor{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-aturhor a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+}
+    /* ------------------------Top Course Section------------------------ */
+
+  
+    .course-detail{
+        /* margin: 0 auto; */
+        padding: 13px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+        filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.4));
+    }
+    .course-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 24px;
+    }
+    .course-banner img{
+    width: 100%;
+    height: auto;
+}
+.course-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.course-authore{
+    color: #ED6B4F;
+    font-weight: 400;
+    font-size: 14.6913px;
+    margin: 7px 0 19px 0;
+}
+.course-duration{
+    display: flex;
+    justify-content: space-between;
+}
+.course-duration span{
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 14.6913px;
+}
+.fa-star{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    opacity: 0.25;
+
+}
+.time{
+    font-size: 14.6913px;
+    color: #ED6B4F;
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    padding: 5px;
+}
